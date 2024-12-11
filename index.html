@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ricardo Daza | Portafolio</title>
+    <link rel="icon" href="#" /> <!-- Colocar icono -->
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles/mystyles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Pre-load de imágenes -->
+    <link rel="preload" href="./img/autorenting.jpg" as="image">
+    <link rel="preload" href="./img/brigada.jpg" as="image">
+    <link rel="preload" href="./img/itquentame.jpeg" as="image">
+</head>
+
+<body class="wellcome w--opacity">
+
+    <!-- Barra de navegación -->
+    <nav class="w-100 position-fixed" role="navigation">
+        <div class="contenedor__principal nav white-color d-flex justify-content-between px-4 py-3 m-auto">
+            <div class="nav__name">
+                <span class="fs-6 fw-bold text-white">Ricardo <span class="text-warning">Daza Jimenez</span></span>
+            </div>
+
+            <div class="nav_icon">
+                <i class="nav_enlace_icon fs-4 d-lg-none fa-solid fa-bars text-white" role="button" aria-label="Abrir menú de navegación"></i>
+            </div>
+
+            <div class="nav__enlaces d-flex flex-column flex-lg-row text-light" aria-label="Enlaces de navegación">
+                <a class="nav__enlace text-light text-decoration-none me-md-5" href="#inicio">Inicio</a>
+                <a class="nav__enlace text-light text-decoration-none me-md-5" href="#acercade">Acerca de mí</a>
+                <a class="nav__enlace text-light text-decoration-none me-md-5" href="#habilidades">Habilidades</a>
+                <a class="nav__enlace text-light text-decoration-none me-md-5" href="#experiencia">Experiencia</a>
+                <a class="nav__enlace text-light text-decoration-none" href="#contacto">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Vista principal (Inicio) -->
+    <section id="inicio" class="section container-fluid bg-dark d-block">
+        <div class="section__flex d-flex flex-column justify-content-center align-items-center">
+            <span class="text-white d-block text-center fw-bold fs-5">Hola, <span class="text-warning fw-normal">Soy</span></span>
+            <span class="text-warning d-block text-center fw-bold fs-1">Ricardo Daza</span>
+            <span class="text-white d-block text-center fw-bold fs-5">Ingeniero de sistemas</span>
+            <span class="text-white d-block text-center fw-bold fs-5">&lt;/&gt;</span>
+
+            <div class="section__links pt-4 w-100 d-flex justify-content-center">
+                <a class="me-3 text-decoration-none text-white fs-1" href="https://github.com/Ricar2Daza" target="_blank" rel="noopener noreferrer" aria-label="Visitar mi perfil de GitHub">
+                    <i class="fa-brands fa-github icon_social"></i>
+                </a>
+                <a class="text-decoration-none text-white fs-1" href="https://www.linkedin.com/in/ricardo-daza77/" target="_blank" rel="noopener noreferrer" aria-label="Visitar mi perfil de LinkedIn">
+                    <i class="fa-brands fa-linkedin icon_social"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Acerca de mí -->
+    <section class="acercade container-fluid" id="acercade">
+        <div class="contenedor__principal m-auto text-white px-3">
+
+            <div class="row">
+                <div class="col-lg">
+                    <h2 class="text-center text-lg-start fw-bold my-5">Acerca de mí</h2>
+
+                    <p class="text-center text-lg-start">
+                        ¡Hola! Me llamo Ricardo, soy ingeniero de sistemas con habilidades y experiencia en el ciclo de desarrollo y 
+                        operaciones de proyectos de tecnologías de la información. 
+                    </p>
+                    <p class="text-center text-lg-start">
+                        Estoy comprometido con el aprendizaje continuo, ofreciendo siempre lo mejor de mí en cada proyecto. 
+                    </p>
+                    <a class="contacto btn btn-warning d-block m-auto my-lg-5 mx-lg-0" href="#contacto" aria-label="Ir a la sección de contacto">Contáctame</a>
+                </div>
+                <div class="col-lg">
+                    <img class="img__perfil me d-block w-75 m-auto rounded-circle py-5" src="img/perfil.JPG" alt="Imagen de perfil de Ricardo Daza">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="habilidades container-fluid">
+        <div class="contenedor__principal m-auto text-white px-3">
+            <div class="row">
+                <div class="d-lg-flex justify-content-lg-center align-items-lg-center">
+                    <div class="col-lg">
+                        <h2 class="text-center text-lg-start fw-bold my-5">Habilidades</h2>
+
+                        <p class="text-center text-lg-start">
+                            Desde crear interfaces intuitivas y experiencias de usuario óptimas hasta gestionar proyectos en entornos de producción, he desarrollado una experiencia que me permite 
+                            abordar desafíos de forma creativa y con calidad. 
+                            
+                            A continuación, podrás ver las herramientas y tecnologías con las que trabajo para crear soluciones tecnológicas.          
+                        </p>
+
+                        <a class="proyectos btn btn-warning d-block m-auto my-lg-5 mx-lg-0" href="#experiencia" aria-label="Ir a la sección de proyectos">Proyectos</a>
+                    </div>
+                    <div class="col-lg my-5">
+                        <div class="d-flex justify-content-center px-4">
+                            <ul class="me-5">
+                                <li>UI//UX</li>
+                                <li>Angular</li>
+                                <li>MERN</li>
+                                <li>Python</li>
+                                <li>DevOps</li>
+                                <li>Cloud Computing</li>
+                                <li>Machine Learning</li>
+                            </ul>
+
+                            <ul>
+                                <li>.NET</li>
+                                <li>Docker</li>
+                                <li>SQL & NoSQL</li>
+                                <li>SCRUM</li>
+                                <li>Software Engineer</li>
+                                <li>CI/CD</li>
+                                <li>Business Intelligence</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experiencia" class="experiencia container-fluid mb-5">
+        <div class="contenedor__principal m-auto text-white px-3">
+
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center fw-bold my-5">Experiencia</h2>
+                </div>
+            </div>
+
+            <div class="row row-cols-md-2 row-cols-xl-3">
+                <div class="col-md p-2">
+                    <article class="article__experiencia">
+                        <div class="imagen_referencia">
+                            <img class="w-100 rounded-2" src="img/menuREADY.PNG" alt="Experiencia en ITQuentame & Brigada">
+                        </div>
+
+                        <div class="spinner">
+                            <div class="double-bounce1"></div>
+                            <div class="double-bounce2"></div>
+                        </div>
+
+                        <span class="m-0 fw-bold">Automatización de pedidos a WhatsApp</span>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#brigada" class="btn btn-warning">Ver más</button>
+                    </article>
+                </div>
+
+                <div class="col-md p-2">
+                    <article class="article__experiencia">
+                        <div class="imagen_referencia">
+                            <img class="w-100 rounded-2" src="img/Sys4hREADY.PNG" alt="Experiencia en auto renting HCA">
+                        </div>
+
+                        <div class="spinner">
+                            <div class="double-bounce1"></div>
+                            <div class="double-bounce2"></div>
+                        </div>
+
+                        <span class="m-0 fw-bold">Diseñamos páginas web a tu medida</span>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#autorenting" class="btn btn-warning">Ver más</button>
+                    </article>
+                </div>
+
+                <div class="col-md p-2">
+                    <article class="article__experiencia">
+                        <div class="imagen_referencia">
+                            <img class="w-100 rounded-2" src="img/despliegue de landingpage.png" alt="Experiencia en sistema de ventas">
+                        </div>
+
+                        <div class="spinner">
+                            <div class="double-bounce1"></div>
+                            <div class="double-bounce2"></div>
+                        </div>
+
+                        <span class="m-0 fw-bold">Sistema de ventas</span>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#autorenting" class="btn btn-warning">Ver más</button>
+                    </article>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white footer container-fluid" id="contacto">
+        <div class="contenedor__principal m-auto px-3">
+            <div class="row">
+                <div class="d-flex flex-column flex-md-row justify-content-sm-between align-items-sm-center">
+                    <div class="footer__name pb-5">
+                        <span class="d-block fs-4 fw-bold text-center text-md-start">Ricardo <span class="text-warning">Daza</span></span>
+                        <span class="text-white d-block text-center text-md-start fs-6">Ingeniero de Sistemas</span>
+                    </div>
+
+                    <div class="pb-5">
+                        <span class="d-block text-center text-md-start">
+                            <i class="fa-solid fa-phone me-2"></i>
+                            +57 3046393428</span>
+                        <span class="d-block text-center text-md-start">
+                            <i class="fa-solid fa-envelope me-2"></i>
+                            rikadaza11@hotmail.com</span>
+                    </div>
+
+                    <div class="text-center pb-5">
+                        <a class="me-3 text-decoration-none text-white" href="#" target="_blank" rel="noopener noreferrer" aria-label="Visitar mi perfil de GitHub">
+                            <i class="fa-brands fa-github fs-3"></i>
+                        </a>
+                        <a class="me-3 text-decoration-none text-white" href="#" target="_blank" rel="noopener noreferrer" aria-label="Visitar mi perfil de LinkedIn">
+                            <i class="fa-brands fa-linkedin fs-3"></i>
+                        </a>
+                        <a class="text-decoration-none text-white" href="./files/cv.pdf" onclick="return confirm('¿Desea descargar el CV?')" target="_blank" rel="noopener noreferrer" download aria-label="Descargar mi CV">
+                            <i class="fa-solid fa-sheet-plastic fs-3"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script defer src="js/index.js"></script>
+</body>
+
+</html>
