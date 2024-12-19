@@ -19,6 +19,9 @@ html {
 
 body {
     background: var(--bgBody);
+    font-size: 1rem; /* En lugar de un tamaño fijo en px */
+    font-family: 'Roboto', sans-serif; /* Una fuente nítida y bien soportada */
+    text-rendering: optimizeLegibility;
 }
 
 .w--opacity {
@@ -238,4 +241,19 @@ nav {
         transform: scale(1);
         -webkit-transform: scale(1);
     }
+}
+
+
+
+
+footer .contact-form {
+    margin-bottom: 20px; /* Ajusta el valor según lo necesites */
+}
+
+footer .form-contact {
+    padding-bottom: 20px; /* Añade padding si es necesario */
+}
+
+footer .form__button {
+    margin-bottom: 20px; /* Esto asegura que el botón no quede pegado al fondo */
 }

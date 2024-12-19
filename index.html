@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ricardo Daza | Portafolio</title>
-    <link rel="icon" href="#" /> <!-- Colocar icono -->
+    <link rel="icon" href="img/RDlogopc.jpg" /> <!-- colocar icono -->
     <link rel="stylesheet" href="styles/normalize.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
@@ -14,7 +15,8 @@
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Pre-load de imágenes -->
+    <!-- pre-load de imagenes -->
+    <!-- has un pre-load de las imagenes mas pesadas -->
     <link rel="preload" href="./img/autorenting.jpg" as="image">
     <link rel="preload" href="./img/brigada.jpg" as="image">
     <link rel="preload" href="./img/itquentame.jpeg" as="image">
@@ -22,20 +24,20 @@
 
 <body class="wellcome w--opacity">
 
-    <!-- Barra de navegación -->
-    <nav class="w-100 position-fixed" role="navigation">
+    <!-- barra de anvegación -->
+    <nav class="w-100 position-fixed">
         <div class="contenedor__principal nav white-color d-flex justify-content-between px-4 py-3 m-auto">
             <div class="nav__name">
                 <span class="fs-6 fw-bold text-white">Ricardo <span class="text-warning">Daza Jimenez</span></span>
             </div>
 
             <div class="nav_icon">
-                <i class="nav_enlace_icon fs-4 d-lg-none fa-solid fa-bars text-white" role="button" aria-label="Abrir menú de navegación"></i>
+                <i class="nav_enlace_icon fs-4 d-lg-none fa-solid fa-bars text-white"></i>
             </div>
 
-            <div class="nav__enlaces d-flex flex-column flex-lg-row text-light" aria-label="Enlaces de navegación">
+            <div class="nav__enlaces d-flex flex-column flex-lg-row text-light">
                 <a class="nav__enlace text-light text-decoration-none me-md-5" href="#inicio">Inicio</a>
-                <a class="nav__enlace text-light text-decoration-none me-md-5" href="#acercade">Acerca de mí</a>
+                <a class="nav__enlace text-light text-decoration-none me-md-5" href="#acercade">Acerca de mi</a>
                 <a class="nav__enlace text-light text-decoration-none me-md-5" href="#habilidades">Habilidades</a>
                 <a class="nav__enlace text-light text-decoration-none me-md-5" href="#experiencia">Experiencia</a>
                 <a class="nav__enlace text-light text-decoration-none" href="#contacto">Contacto</a>
@@ -43,50 +45,54 @@
         </div>
     </nav>
 
-    <!-- Vista principal (Inicio) -->
+    <!-- vista principal (inicio) -->
     <section id="inicio" class="section container-fluid bg-dark d-block">
         <div class="section__flex d-flex flex-column justify-content-center align-items-center">
-            <span class="text-white d-block text-center fw-bold fs-5">Hola, <span class="text-warning fw-normal">Soy</span></span>
+            <span class="text-white d-block text-center fw-bold fs-5">Hola, <span
+                    class="text-warning fw-normal">Soy</span></span>
             <span class="text-warning d-block text-center fw-bold fs-1">Ricardo Daza</span>
             <span class="text-white d-block text-center fw-bold fs-5">Ingeniero de sistemas</span>
             <span class="text-white d-block text-center fw-bold fs-5">&lt;/&gt;</span>
 
             <div class="section__links pt-4 w-100 d-flex justify-content-center">
-                <a class="me-3 text-decoration-none text-white fs-1" href="https://github.com/Ricar2Daza" target="_blank" rel="noopener noreferrer" aria-label="Visitar mi perfil de GitHub">
+                <a class="me-3 text-decoration-none text-white fs-1" href="https://github.com/Ricar2Daza" target="_blank" rel="noopener noreferrer">
                     <i class="fa-brands fa-github icon_social"></i>
                 </a>
-                <a class="text-decoration-none text-white fs-1" href="https://www.linkedin.com/in/ricardo-daza77/" target="_blank" rel="noopener noreferrer" aria-label="Visitar mi perfil de LinkedIn">
+                <a class="text-decoration-none text-white fs-1" href="https://www.linkedin.com/in/ricardo-daza77/" target="_blank" rel="noopener noreferrer">
                     <i class="fa-brands fa-linkedin icon_social"></i>
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- Acerca de mí -->
+    <!-- acerca de -->
     <section class="acercade container-fluid" id="acercade">
-        <div class="contenedor__principal m-auto text-white px-3">
+        <div class="contenedor__principal m-auto  text-white px-3">
 
             <div class="row">
                 <div class="col-lg">
-                    <h2 class="text-center text-lg-start fw-bold my-5">Acerca de mí</h2>
+                    <h2 class="text-center text-lg-start fw-bold my-5">Acerca de mi</h2>
 
                     <p class="text-center text-lg-start">
                         ¡Hola! Me llamo Ricardo, soy ingeniero de sistemas con habilidades y experiencia en el ciclo de desarrollo y 
-                        operaciones de proyectos de tecnologías de la información. 
+                        operaciones de proyecto de tecnologías de la información. 
                     </p>
                     <p class="text-center text-lg-start">
-                        Estoy comprometido con el aprendizaje continuo, ofreciendo siempre lo mejor de mí en cada proyecto. 
+                        Estoy comprometido con el aprendizaje continuo, ofreciendo siempre lo mejor 
+                        de mí en cada proyecto. 
                     </p>
-                    <a class="contacto btn btn-warning d-block m-auto my-lg-5 mx-lg-0" href="#contacto" aria-label="Ir a la sección de contacto">Contáctame</a>
+                    <a id="asd" class="contacto btn btn-warning d-block m-auto my-lg-5 mx-lg-0"
+                        href="#contacto">Contactame</a>
+
                 </div>
                 <div class="col-lg">
-                    <img class="img__perfil me d-block w-75 m-auto rounded-circle py-5" src="img/perfil.JPG" alt="Imagen de perfil de Ricardo Daza">
+                    <img class="img__perfil me d-block w-75 m-auto rounded-circle py-5" src="img/perfil.JPG" alt="imagen de perfil">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Habilidades -->
+    <!-- habilidades -->
     <section id="habilidades" class="habilidades container-fluid">
         <div class="contenedor__principal m-auto text-white px-3">
             <div class="row">
@@ -98,10 +104,11 @@
                             Desde crear interfaces intuitivas y experiencias de usuario óptimas hasta gestionar proyectos en entornos de producción, he desarrollado una experiencia que me permite 
                             abordar desafíos de forma creativa y con calidad. 
                             
-                            A continuación, podrás ver las herramientas y tecnologías con las que trabajo para crear soluciones tecnológicas.          
+                            A continuación, podrás ver las herramientas y tecnologías con las que trabajo para crear soluciones tecnologicas.          
                         </p>
 
-                        <a class="proyectos btn btn-warning d-block m-auto my-lg-5 mx-lg-0" href="#experiencia" aria-label="Ir a la sección de proyectos">Proyectos</a>
+                        <a class="proyectos btn btn-warning d-block m-auto my-lg-5 mx-lg-0"
+                            href="#experiencia">Proyectos</a>
                     </div>
                     <div class="col-lg my-5">
                         <div class="d-flex justify-content-center px-4">
@@ -131,13 +138,13 @@
         </div>
     </section>
 
-    <!-- Experiencia -->
+    <!-- experiencia -->
     <section id="experiencia" class="experiencia container-fluid mb-5">
         <div class="contenedor__principal m-auto text-white px-3">
 
             <div class="row">
                 <div class="col">
-                    <h2 class="text-center fw-bold my-5">Experiencia</h2>
+                    <h2 class=" text-center fw-bold my-5">Experiencia</h2>
                 </div>
             </div>
 
@@ -145,7 +152,7 @@
                 <div class="col-md p-2">
                     <article class="article__experiencia">
                         <div class="imagen_referencia">
-                            <img class="w-100 rounded-2" src="img/menuREADY.PNG" alt="Experiencia en ITQuentame & Brigada">
+                            <img class="w-100 rounded-2" src="img/menuREADY.PNG" alt="experiencia ITQuentame & Brigada">
                         </div>
 
                         <div class="spinner">
@@ -153,15 +160,16 @@
                             <div class="double-bounce2"></div>
                         </div>
 
-                        <span class="m-0 fw-bold">Automatización de pedidos a WhatsApp</span>
-                        <button type="button" data-bs-toggle="modal" data-bs-target="#brigada" class="btn btn-warning">Ver más</button>
+                        <span class="m-0 fw-bold">Automatización de pedidos a whatsApp</span>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#brigada"
+                            class="btn btn-warning">Ver más</button>
                     </article>
                 </div>
 
                 <div class="col-md p-2">
                     <article class="article__experiencia">
                         <div class="imagen_referencia">
-                            <img class="w-100 rounded-2" src="img/Sys4hREADY.PNG" alt="Experiencia en auto renting HCA">
+                            <img class="w-100 rounded-2" src="img/Sys4hREADY.PNG" alt="experiencia auto renting hca">
                         </div>
 
                         <div class="spinner">
@@ -169,15 +177,16 @@
                             <div class="double-bounce2"></div>
                         </div>
 
-                        <span class="m-0 fw-bold">Diseñamos páginas web a tu medida</span>
-                        <button type="button" data-bs-toggle="modal" data-bs-target="#autorenting" class="btn btn-warning">Ver más</button>
+                        <span class="m-0 fw-bold">Diseñamos paginas web a tu medida</span>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#autorenting"
+                            class="btn btn-warning">Ver más</button>
                     </article>
                 </div>
 
                 <div class="col-md p-2">
                     <article class="article__experiencia">
                         <div class="imagen_referencia">
-                            <img class="w-100 rounded-2" src="img/despliegue de landingpage.png" alt="Experiencia en sistema de ventas">
+                            <img class="w-100 rounded-2" src="img/despliegue de landingpage.png" alt="experiencia auto renting hca">
                         </div>
 
                         <div class="spinner">
@@ -185,54 +194,315 @@
                             <div class="double-bounce2"></div>
                         </div>
 
-                        <span class="m-0 fw-bold">Sistema de ventas</span>
-                        <button type="button" data-bs-toggle="modal" data-bs-target="#autorenting" class="btn btn-warning">Ver más</button>
+                        <span class="m-0 fw-bold">Sistema de ventas.</span>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#autorenting"
+                            class="btn btn-warning">Ver más</button>
                     </article>
                 </div>
-            </div>
 
-        </div>
+            <!-- EN CASO DE QUERE AGREGAR OTRA EXPERIENCIA -->
+               <!-- <div class="col-md p-2">
+                    <article class="article__experiencia">
+                        <div class="imagen_referencia">
+                            <img class="w-100 rounded-2" src="#" alt="texto alternativo">
+                        </div>
+
+                        <div class="spinner">
+                            <div class="double-bounce1"></div>
+                            <div class="double-bounce2"></div>
+                        </div>
+
+                        <span class="m-0 fw-bold">Buenas practicas tecnologicas.</span>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#idexperiencia"
+                            class="btn btn-warning">Ver más</button>
+                    </article>
+                </div> --> 
+
+            </div> 
+
+        </div> 
     </section>
 
-    <!-- Footer -->
-    <footer class="text-white footer container-fluid" id="contacto">
-        <div class="contenedor__principal m-auto px-3">
-            <div class="row">
-                <div class="d-flex flex-column flex-md-row justify-content-sm-between align-items-sm-center">
-                    <div class="footer__name pb-5">
-                        <span class="d-block fs-4 fw-bold text-center text-md-start">Ricardo <span class="text-warning">Daza</span></span>
-                        <span class="text-white d-block text-center text-md-start fs-6">Ingeniero de Sistemas</span>
+
+    <!-- svg waves -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#1f1f1f" fill-opacity="1"
+            d="M0,96L120,122.7C240,149,480,203,720,218.7C960,235,1200,213,1320,202.7L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+        </path>
+    </svg>
+
+
+
+<!-- footer -->
+<footer class="text-white footer container-fluid" id="contacto">
+    <div class="contenedor__principal m-auto px-3">
+        <div class="row">
+            <!-- Formulario de Contacto -->
+            <div class="col-12">
+                <h2 class="text-center mb-4">Contáctame</h2>
+                <form action="https://formsubmit.co/rikadaza11@hotmail.com" method="POST">
+                    <!-- Campo para asunto -->
+                    <div class="mb-3">
+                        <label for="asunto" class="form-label">Asunto</label>
+                        <input type="text" class="form-control" id="asunto" name="asunto" required>
                     </div>
 
-                    <div class="pb-5">
-                        <span class="d-block text-center text-md-start">
-                            <i class="fa-solid fa-phone me-2"></i>
-                            +57 3046393428</span>
-                        <span class="d-block text-center text-md-start">
-                            <i class="fa-solid fa-envelope me-2"></i>
-                            rikadaza11@hotmail.com</span>
+                    <!-- Campo para mensaje -->
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" name="mensaje" rows="3" required></textarea>
                     </div>
 
-                    <div class="text-center pb-5">
-                        <a class="me-3 text-decoration-none text-white" href="#" target="_blank" rel="noopener noreferrer" aria-label="Visitar mi perfil de GitHub">
-                            <i class="fa-brands fa-github fs-3"></i>
-                        </a>
-                        <a class="me-3 text-decoration-none text-white" href="#" target="_blank" rel="noopener noreferrer" aria-label="Visitar mi perfil de LinkedIn">
-                            <i class="fa-brands fa-linkedin fs-3"></i>
-                        </a>
-                        <a class="text-decoration-none text-white" href="./files/cv.pdf" onclick="return confirm('¿Desea descargar el CV?')" target="_blank" rel="noopener noreferrer" download aria-label="Descargar mi CV">
-                            <i class="fa-solid fa-sheet-plastic fs-3"></i>
-                        </a>
+                    <!-- Campo para nombre -->
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Tu Nombre</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" required>
                     </div>
 
+                    <!-- Botón de Enviar -->
+                    <button type="submit" class="btn btn-warning w-100">Enviar</button>
+                </form>
+            </div>
+
+            <!-- Datos de contacto -->
+            <div class="d-flex flex-column flex-md-row justify-content-sm-between align-items-sm-center mt-5">
+                <div class="footer__name pb-5">
+                    <span class="d-block fs-4 fw-bold text-center text-md-start">Ricardo <span
+                            class="text-warning">Daza</span></span>
+                    <span class="text-white d-block text-center text-md-start fs-6">Ingeniero de Sistemas</span>
+                </div>
+
+                <div class="pb-5">
+                    <span class="d-block text-center text-md-start">
+                        <i class="fa-solid fa-phone me-2"></i>
+                        +57 3046393428
+                    </span>
+                    <span class="d-block text-center text-md-start">
+                        <i class="fa-solid fa-envelope me-2"></i>
+                        rikadaza11@hotmail.com
+                    </span>
+                </div>
+
+                <!-- Redes Sociales -->
+                <div class="text-center pb-5">
+                    <a class="me-3 text-decoration-none text-white" href="https://github.com/Ricar2Daza" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-github fs-3"></i>
+                    </a>
+                    <a class="me-3 text-decoration-none text-white" href="https://www.linkedin.com/in/ricardo-daza77/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin fs-3"></i>
+                    </a>
+                    <a class="text-decoration-none text-white" href="./files/cv.pdf"
+                        onclick="return confirm('¿Desea descargar el CV?')" target="_blank" rel="noopener noreferrer" download>
+                        <i class="fa-solid fa-sheet-plastic fs-3"></i>
+                    </a>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
 
-    <!-- Scripts -->
+
+
+<!-- Ventana modal -->
+<div class="modal fade" id="brigada" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-scrollable">
+        <div class="modal-content modal__content--border">
+            <!-- Encabezado de la modal -->
+            <div class="modal-header modal__header--bg text-white">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Menu Digital Personalizado</h1>
+            </div>
+            <!-- Cuerpo de la modal -->
+            <div class="modal-body modal__body--bg">
+                <h6 class="d-block fw-bold">Funcionalidad:</h6>
+                <p>
+                    Servicio de <strong>página web</strong> personalizada con formato de menú digital para <strong>automatizar pedidos</strong>
+                    de productos a disposición de la parte interesada.
+                </p>
+                <p>
+                    El <strong>Menú Digital</strong>, de una forma moderna, permite al propietario disponer sus productos en internet para sus clientes. 
+                    A través de un formulario, redirige el pedido realizado y lo envía al WhatsApp del negocio.
+                </p>
+
+                <!-- Contenido visual -->
+                <div class="d-flex flex-column flex-lg-row justify-content-between gap-3">
+                    <div class="w-100">
+                        <img src="./img/menuREADY.PNG" alt="ITQuentame" class="w-100 rounded-3">
+                        <a class="btn btn-warning mt-3" href="https://menudigitalrd.netlify.app" target="_blank" rel='noopener noreferrer'>
+                            Visitar
+                        </a>
+                    </div>
+                    <div class="w-100">
+                        <img src="./img/menuREADY2.PNG" alt="Brigada" class="w-100 rounded-3">
+                        <span></span>
+                    </div>
+                </div>
+
+                <!-- Tecnologías utilizadas -->
+                <br>
+                <span class="d-block fw-bold">Tecnologías utilizadas:</span>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Bootstrap</li>
+                </ul>
+
+                <!-- Tareas realizadas -->
+                <br>
+                <span class="d-block fw-bold">Tareas realizadas:</span>
+                <ul>
+                    <li>Menú digital con diseño responsivo, osea poder verlo en los distintos tamaños de pantallas(PC, Tablet y Celular).</li>
+                    <li>Integración del formulario con WhatsApp para automatizar pedidos 6.</li>
+                    <li>Optimización del rendimiento del sitio.</li>
+                </ul>
+            </div>
+            <!-- Pie de la modal -->
+            <div class="modal-footer modal__footer--bg">
+                <a class="btn btn-warning" href="https://menudigitalrd.netlify.app" target="_blank" rel='noopener noreferrer'>
+                    Visitar
+                </a>
+                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
+                    Cerrar
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <!-- AUTO RENTING HCA modal-->
+    <div class="modal fade" id="autorenting" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content modal__content--border">
+                <div class="modal-header modal__header--bg text-white">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Desarrollamos y desplegamos paginas web a medida.</h1>
+                </div>
+                <div class="modal-body modal__body--bg">
+                    <h6 class="d-block fw-bold">Funcionalidad:</h6>
+                    <br>
+
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nostrum tempore quas
+                        voluptas illo nulla laborum modi, corrupti dolorem. Nihil deserunt alias nisi officia amet
+                        tenetur vel, odio obcaecati rerum!
+                    </p>
+
+                    <div class="custom__carousel rounded-4">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade w-100 h-100">
+                            <div class="carousel-inner h-100">
+                                <div class="carousel-item active h-100">
+                                    <img src="./img/ar1.jpeg" class="d-block h-100 m-auto" alt="interfaz de log in">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/ar2.jpeg" class="d-block h-100 m-auto " alt="interfaz de registro">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/ar3.jpeg" class="d-block h-100 m-auto" alt="interfaz de inicio">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/ar4.jpeg" class="d-block h-100 m-auto" alt="barra de anvegación">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/ar5.jpeg" class="d-block h-100 m-auto"
+                                        alt="interfaz de selección dde vehiculo">
+                                </div>
+                                <div class="carousel-item h-100">
+                                    <img src="./img/ar6.jpeg" class="d-block h-100 m-auto"
+                                        alt="interfaz de alquiler de vehiculo">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <a class="btn btn-warning my-3" href="#" target="_blank" rel='noopener noreferrer'>
+                        Visitar repositorio
+                    </a>
+
+                    <br>
+                    <span class="d-block fw-bold">Tecnologías utilizadas:</span>
+                    <ul>
+                        <li>Tecnología</li>
+                        <li>Tecnología</li>
+                        <li>Tecnología</li>
+                        <li>Tecnología</li>
+                        <li>Tecnología</li>
+                        <li>Tecnología</li>
+                    </ul>
+
+                    <br>
+                    <span class="d-block fw-bold">Tareas realizadas:</span>
+                    <br>
+                    <ul>
+                        <li>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        </li>
+                        <li>
+                            Lorem ipsum dolor, sit amet consectetur.
+                        </li>
+                        <li>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        </li>
+                        <li>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        </li>
+                        <li>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        </li>
+                        <li>
+                            Lorem ipsum dolor, sit amet.
+                        </li>
+                        <li>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing.
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer modal__footer--bg">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
+                        Cerrar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- EN CASO DE QUERE AGREGAR OTRA EXPERIENCIA -->
+    <!-- <div class="modal fade" id="idexperiencia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content modal__content--border">
+                <div class="modal-header modal__header--bg text-white">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Lorem ipsum dolor sit amet.</h1>
+                </div>
+                <div class="modal-body modal__body--bg">
+
+                    <span>CONTENIDO AQUÍ</span>
+
+                </div>
+                <div class="modal-footer modal__footer--bg">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
+                        Cerrar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <!-- mis scripts -->
     <script defer src="js/index.js"></script>
 </body>
 
